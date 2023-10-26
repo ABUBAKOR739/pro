@@ -1,0 +1,138 @@
+/* common start */
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+
+/* common end */
+/* heder start */
+header {
+    padding: 30px 0;
+}
+
+.containar {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid slateblue;
+    overflow: hidden;
+}
+
+.logo {
+    width: 13%;
+    float: left;
+    margin-top: 5px;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 100%;
+}
+
+.menu {
+    width: 65%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    display: inline-block;
+    margin: 0 50px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .59s;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0px;
+}
+
+/* heder end */
+/* banar start */
+.banar {}
+
+.b-img {}
+
+.b-img img {
+    width: 100%;
+}
+
+/* banar end */
+/* getaway start */
+.getaway {}
+
+.containar2 {
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.g_containar {}
+
+.c_light {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.c_titel {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 25px 0 30px;
+}
+
+.c_text {
+    margin: 0;
+    line-height: 25px;
+}
+
+.mt_45 {
+    margin-top: 45px;
+}
+
+/* getaway end */
+/* blog start */
+.blog {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid royalblue;
+}
+
+.s_blog {
+    width: 47%;
+    border: 1px solid rebeccapurple;
+    float: left;
+
+}
+
+.s_blog:nth-child(even) {
+    background-color: red;
+    margin-left: 5%;
+}
+
+.s_img {
+    margin-bottom: 25px;
+}
+
+.s_img img {
+    width: 100%;
+}
+
+/* blog end */
